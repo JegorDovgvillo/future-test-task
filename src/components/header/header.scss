@@ -1,0 +1,45 @@
+header {
+  display: flex;
+  flex-direction: row;
+  font-family: "Arkhip";
+  align-items: center;
+  padding: 20px;
+  background-color: gainsboro;
+  border-radius: 10px;
+  .logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 100px;
+    a {
+      text-decoration: none;
+      color: black;
+      font-family: "Arkhip";
+      font-size: 30px;
+    }
+    .technical {
+      height: 70px;
+      .technical__first {
+        background-color: #00ff99;
+        width: 50px;
+        height: 25px;
+        transform: rotate(45deg);
+        position: relative;
+        top: 5px;
+      }
+      .technical__second {
+        background-color: #00ff99;
+        width: 50px;
+        height: 25px;
+        transform: rotate(-45deg);
+        position: relative;
+        top: 17px;
+      }
+    }
+  }
+  .navlink {
+    color: black;
+    font-size: 21px;
+    text-decoration: none;
+  }
+}

@@ -1,0 +1,36 @@
+
+.book {
+  display: flex;
+  flex-direction: row;
+  margin: 150px auto;
+  flex-grow: 1;
+  &__img {
+    padding: 70px;
+    background-color: gainsboro;
+    margin-right: 60px;
+    height: fit-content;
+    border-radius: 10px;
+    img {
+      width: 300px;
+      height: 500px;
+    }
+  }
+  &-info {
+    font-family: "Arkhip";
+    font-size: 20px;
+    color: white;
+    &__description {
+      border: solid 1px gainsboro;
+      padding: 15px;
+      border-radius: 10px;
+      color:white
+    }
+    &__authors {
+      text-decoration: underline;
+      color: gainsboro;
+    }
+    &__categories {
+      color: gainsboro;
+    }
+  }
+}

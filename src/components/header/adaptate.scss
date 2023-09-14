@@ -1,0 +1,15 @@
+@media only all and (max-width: 550px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    .logo {
+      margin-right: 0px;
+      a {
+        text-decoration: none;
+        color: black;
+        font-family: "Arkhip";
+        font-size: 27px;
+      }
+    }
+  }
+}

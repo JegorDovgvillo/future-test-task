@@ -1,0 +1,77 @@
+@font-face {
+  font-family: "Gilroy";
+  src:
+    local("Gilroy Medium"),
+    local("Gilroy-Medium"),
+    url("./fonts/Gilroy-Medium.woff2") format("woff2"),
+    url("./fonts/Gilroy-Medium.woff") format("woff"),
+    url("./fonts/Gilroy-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Cinzel Decorative";
+  src: url("./fonts/CinzelDecorative-Regular.eot");
+  src:
+    local("Cinzel Decorative Regular"),
+    local("CinzelDecorative-Regular"),
+    url("./fonts/CinzelDecorative-Regular.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/CinzelDecorative-Regular.woff2") format("woff2"),
+    url("./fonts/CinzelDecorative-Regular.woff") format("woff"),
+    url("./fonts/CinzelDecorative-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Cinzel Decorative";
+  src: url("./fonts/CinzelDecorative-Black.eot");
+  src:
+    local("Cinzel Decorative Black"),
+    local("CinzelDecorative-Black"),
+    url("./fonts/CinzelDecorative-Black.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/CinzelDecorative-Black.woff2") format("woff2"),
+    url("./fonts/CinzelDecorative-Black.woff") format("woff"),
+    url("./fonts/CinzelDecorative-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Cinzel Decorative";
+  src: url("./fonts/CinzelDecorative-Bold.eot");
+  src:
+    local("Cinzel Decorative Bold"),
+    local("CinzelDecorative-Bold"),
+    url("./fonts/CinzelDecorative-Bold.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/CinzelDecorative-Bold.woff2") format("woff2"),
+    url("./fonts/CinzelDecorative-Bold.woff") format("woff"),
+    url("./fonts/CinzelDecorative-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Arkhip";
+  src: url("./fonts/Arkhip.eot");
+  src:
+    local("Arkhip"),
+    url("./fonts/Arkhip.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/Arkhip.woff2") format("woff2"),
+    url("./fonts/Arkhip.woff") format("woff"),
+    url("./fonts/Arkhip.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  max-width: 1440px;
+  margin: 0 auto;
+  background-color: black;
+  #root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+}

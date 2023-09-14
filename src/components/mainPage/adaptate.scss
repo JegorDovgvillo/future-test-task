@@ -1,0 +1,23 @@
+@media only all and (max-width: 1360px) {
+  .container-main {
+    align-items: stretch;
+    .books-list {
+      grid-template-columns: 1fr 1fr;
+    }
+    button {
+      width: 215px;
+      margin: 0 auto;
+    }
+  }
+}
+@media only all and (max-width: 680px) {
+  .container-main {
+    margin-bottom: 100px;
+    flex-grow: 1;
+    .books-list {
+      grid-template-columns: 1fr;
+      justify-content: center;
+    }
+  }
+}
+

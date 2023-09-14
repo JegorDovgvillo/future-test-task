@@ -1,0 +1,33 @@
+@media only all and (max-width: 1100px) {
+  .book {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px auto;
+    padding: 20px;
+
+    &__img {
+      padding: 70px;
+      width: fit-content;
+      margin-right: 0px;
+      img {
+        width: 300px;
+        height: 500px;
+      }
+    }
+    }
+  }
+@media only all and (max-width: 550px) {
+  .book {
+    &__img {
+      padding: 30px;
+      img {
+        width: 200px;
+        height: 300px;
+      }
+    }
+    &-info {
+      font-size: 15px;
+    }
+  }
+}

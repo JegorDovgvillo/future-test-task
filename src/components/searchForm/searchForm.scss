@@ -1,0 +1,52 @@
+.container-search {
+  font-family: "Arkhip";
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  h1,
+  label,
+  .results {
+    color: white;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .search-input {
+      width: 425px;
+      font-size: 18px;
+      margin-bottom: 15px;
+    }
+    input,
+    select {
+      border-radius: 6px;
+      padding: 6px 12px;
+      outline-color: transparent;
+    }
+    select {
+      width: 150px;
+      margin-left: 10px;
+      font-size: 16px;
+    }
+    label {
+      margin-left: 30px;
+      font-size: 18px;
+    }
+    .selects-block {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+    }
+    img {
+      position: relative;
+      right: -205px;
+      bottom: 40px;
+    }
+  }
+  .results {
+    font-size: 20px;
+  }
+}
